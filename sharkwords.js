@@ -30,7 +30,7 @@ const generateLetterButtons = () => {
  */
 const disableLetterButton = (buttonEl) => {
 
-  $('buttonEl').attr('disabled', 'true');  
+  $(buttonEl).attr('disabled', true);  
 };
 
 
